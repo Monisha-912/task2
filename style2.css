@@ -1,0 +1,104 @@
+css
+
+
+.left {
+	margin-left:10%;
+
+    width: 35%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.right {
+	
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+	
+}
+
+.box {
+	width:1000 px;
+	height:20 px;
+}
+
+
+
+body {
+	margin-top:10%;
+}
+button{
+	height:8%;
+	width:8%;
+	color:black;
+	
+	
+}
+#button1{
+	
+	margin-left:2%;
+	background-color: lime;
+	
+}
+#button2{
+	margin-left:2%;
+	margin-top:3%;
+	background-color:lightcoral;
+}
+#button3{
+	margin-left:2%;
+	margin-top:3%;
+	background-color:cyan;
+}
+	
+form {
+	height:10%;
+}
+
+#first {
+	height:80%;
+	width:50%;
+	font-size:100%;
+}
+
+#first {
+	height:80%;
+	width:50%;
+	font-size:100%;
+}
+
+#gender {
+	height:80%;
+	width:60%;
+	font-size:100%;
+}
+
+#last {
+	height:80%;
+	width:60%;
+	font-size:100%;
+}
+
+#email {
+	height:80%;
+	width:50%;
+	font-size:100%;
+}
+
+#pno {
+	height:80%;
+	width:60%;
+	font-size:100%;
+}
+
+#dob {
+	height:80%;
+	width:50%;
+	font-size:100%;
+}
+body{
+	background-color:lavenderBlush;
+}
+

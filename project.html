@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<script type="text/javascript" src="proj.js"></script>
+</head>
+<body>
+
+<h1>Register Here and Enjoy!!</h1>
+
+
+<div class="left">
+<form><input type="text" id="first"  placeholder="First Name  *" required> </form> <br> 
+<form><input type="email" id="email"  placeholder="Email  *" required> </form><br>
+<form><input type="date" id="dob"   required="required" > </form>
+</div>
+<div class="right">
+ <form> <input type="text" id="last"   placeholder="Last Name  *" required> </form><br>
+ 
+ <form><input  type="text" id="pno"   placeholder="Mobile  *" required> </form><br>
+ <form ><label for="selector" id="gen"  placeholder="Gender" required>  
+   <select id="gender">
+   <option value="" disabled selected hidden> Gender</option>
+   <option>Gender</option>
+   <option>MALE</option>
+   <option>FEMALE</option>
+   <option>OTHERS</option>
+   </select>
+   </label>
+   </form>
+   </div>
+   <div>
+    <button type="submit" id="button1" onclick="mandatoryfield(),emailvalidation(),mobilevalidation(),ages()"> REGISTER</button> <br>
+
+            <button id="button2" onclick="clr()"> CLEAR</button> <br>
+            <button id="button3" onclick="resetall()"> RESET</button> 
+	</div>
+
+</body>
+</html>
